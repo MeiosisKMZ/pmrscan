@@ -97,7 +97,10 @@ pmrscan/
 ├── pmrscan_app.c        # Main logic (scanning, UI, audio)
 ├── pmrscan_app.h        # App structure and declarations
 ├── README.md            # Documentation
-├── pmrsicon.png         # Fap icon
+├── LICENSE              # License
+├── application.fam      # App informations
+└── icons                
+      └── pmrscan.png    # Fap icon
 ```
 
 ---
