@@ -1,0 +1,16 @@
+App(
+    appid="pmrscan",
+    name="PMRScan",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="pmrscan_app",
+    requires=["gui", "subghz", "furi"],
+    cdefines=["APP_PMRSCAN"],
+    stack_size=2 * 1024,
+    fap_category="Sub-GHz",
+    fap_version="0.1",
+    fap_icon_assets="assets",
+    fap_author="MeiosisKMZ",
+    fap_description="PMR446 scanner for Flipper",
+    fap_icon="icons/pmrscan.png",
+    fap_weburl="https://github.com/MeiosisKMZ/",
+)
